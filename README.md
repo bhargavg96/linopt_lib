@@ -2,7 +2,7 @@
 This is a Linear Optimization Solver Library. The following Algorithm is implemented:
   - Two-phase Simplex Method
 
-Testing performed again CVXPY LinProg solver as benchmark.
+Testing performed against CVXPY LinProg solver as benchmark.
 
 Run Instructions:
 

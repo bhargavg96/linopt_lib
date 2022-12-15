@@ -112,7 +112,7 @@ Problem_19_simplex_dict = {'num_opt_vars' : 18,
                                                          [14.], [14.],
                                                          [14.], [14.],
                                                          [14.], [14.],]),
-                      'minimization_flag' : False,
+                      'minimization_flag' : True,
                       'is_std_flag' : False,
                       'slack_var_sign_array' : create_prob_19_slack_var_array(num_constraints = 34, negative_indices = [18, 19, 20, 21, 22, 23, 25, 27, 29, 31, 33])
                       }
@@ -176,7 +176,7 @@ Problem_19_bm_dict = {'num_opt_vars' : 18,
                                                       [14.], [-14.],
                                                       [14.], [-14.],
                                                       [14.], [-14.],]),
-                   'minimization_flag' : False,
+                   'minimization_flag' : True,
                    'is_std_flag' : False,
                    'slack_var_sign_array' : create_prob_19_slack_var_array(num_constraints = 34, negative_indices = [18, 19, 20, 21, 22, 23, 25, 27, 29, 31, 33])
                    }

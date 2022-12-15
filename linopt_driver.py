@@ -68,7 +68,7 @@ def _main(lp_data_bm_dictionary = {},
                                                              simplex_solver_final_solution_dict['solution_dict']['objective']))
 
 if __name__ == '__main__':
-    problem_name = 'bjs411'
+    problem_name = 'prob19'
     lp_data_bm_dict = copy.deepcopy(lp_test_problems_dict['benchmark'][problem_name])
 
     lp_data_simplex_dict = copy.deepcopy(lp_test_problems_dict['simplex'][problem_name])
